@@ -12,12 +12,18 @@
     width: 100%;
 }
 @font-face {
-    font-family: 'Mullerb';
-    src: url('/fonts/MullerExtraBoldDEMO.woff') format('woff');
+    font-family: 'Muller';
+    src: url('../fonts/MullerNarrow-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-    font-family: 'Muler';
-    src: url('/fonts/AnyConv.com__MullerThinDEMO.woff2') format('woff2');
+    font-family: 'Muller';
+    src: url('../fonts/AnyConv.com__MullerNarrow-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
 }
 /*меню*/
 .menu {
@@ -273,9 +279,9 @@ footer {
     background: linear-gradient(90deg, rgb(209, 207, 207) 10%, #46B1DE) ;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
     font-size: 18px;
-    font-family: 'Muler';
+    font-family: 'Muller';
+    padding: 20px 50px;
 }
 
 .dark-logo {
@@ -334,10 +340,11 @@ footer {
 }
 .white-text {
     color: white;
-    margin-top: 5vh;
-    padding: 40px, 0;
-    margin-bottom: 5vh;
-    
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 10px;    
 }
 .white-text>div:nth-child(1) {
     margin-bottom: 3vh;
@@ -348,4 +355,5 @@ footer {
 .icons>img:nth-child(1),
 .icons>img:nth-child(2)  {
     margin-right: 1vw;
+    
 }
