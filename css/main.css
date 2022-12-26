@@ -1,7 +1,25 @@
+body {
+    margin: 0;
+}
+.container {
+    width: 1180px;
+    margin: 0 auto;
+}
 .menu-main {
     background-image: url('../img/Rectangle\ 1.jpg');
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
+    padding: 200px 0;
+    position: relative;
+}
+header {
+    padding: 20px 0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 1;
 }
 main {
     font-family: 'Roboto';
@@ -49,8 +67,10 @@ h1, .title {
 }
 .lady {
     position: absolute;
-    top: 105px;
-    left: 300px;
+    /* top: 105px; */
+    bottom: 0;
+    right: 0;
+    /* left: 300px; */
 }
 
 .card-all {
