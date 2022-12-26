@@ -1,0 +1,74 @@
+.menu-main {
+    background-image: url('../img/Rectangle\ 1.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+main {
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+h1, .title {
+    font-weight: 700;
+    font-size: 40px;
+    width: 530px;
+}
+
+.title {
+    color: #46B1DE;
+}
+
+.title-text {
+    width: 464px;
+    font-size: 16px;
+}
+.btn {
+    margin-top: 48px;
+   
+}
+
+.btn>a {
+    padding: 16px 67px 16px 67px;
+    border: 1px solid black;
+    padding: 8px;
+    
+}
+
+.btn-tel {
+    color: white;
+    background-color: #46B1DE;
+    margin-right: 120px;
+    margin-left: 110px;
+}
+
+.btn-serv {
+    color: #46B1DE;
+    background-color: white;
+}
+#phone, #services {
+    text-decoration: none;
+}
+.lady {
+    position: absolute;
+    top: 105px;
+    left: 300px;
+}
+
+.card-all {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    border: 1px solid black;
+    width: 280px;
+    background-color: white;
+    margin-top: 150px;
+    margin-right: 70px;
+    z-index: 555;
+}
+
+.number {
+    font-size: 65px;
+    color: #46B1DE;
+}
